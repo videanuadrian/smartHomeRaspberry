@@ -21,9 +21,7 @@ public class IndexServlet extends HttpServlet {
 	
 	public void doGet(HttpServletRequest req,HttpServletResponse resp) throws IOException, ServletException{
 		
-
-		tempDao = new TemperatureDaoImpl();
-		
+		tempDao = new TemperatureDaoImpl();		
 		// display temperatures from last hour
 		List<Temperature> temps = tempDao.getLastHourTemperatures();
 		

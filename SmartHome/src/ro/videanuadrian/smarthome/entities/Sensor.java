@@ -32,7 +32,6 @@ public class Sensor implements Serializable {
 		this.name = name;
 	}
 
-
 	@Override
 	public String toString() {
 		return "Sensor [id=" + id + ", name=" + name + "]";

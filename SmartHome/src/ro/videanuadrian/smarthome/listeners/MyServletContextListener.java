@@ -14,7 +14,6 @@ public class MyServletContextListener implements ServletContextListener {
 
 	@Override
 	public void contextInitialized(ServletContextEvent arg0) {	
-
 			tempGrabber = new TemperatureGrabber();
 			DBTempLoggerListener dbTempLoggerListener = new DBTempLoggerListener();
 			tempGrabber.addObserver(dbTempLoggerListener);
