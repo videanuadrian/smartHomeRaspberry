@@ -4,14 +4,29 @@
   <listener>
     <listener-class>ro.videanuadrian.smarthome.listeners.MyServletContextListener</listener-class>
   </listener>
+  
   <servlet>
     <servlet-name>Index</servlet-name>
     <servlet-class>ro.videanuadrian.smarthome.servlets.IndexServlet</servlet-class>
   </servlet>
+  
   <servlet-mapping>
     <servlet-name>Index</servlet-name>
     <url-pattern>/index.html</url-pattern>
   </servlet-mapping>
+  
+  
+  <servlet>
+    <servlet-name>Gpio</servlet-name>
+    <servlet-class>ro.videanuadrian.smarthome.servlets.GpioServlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>Gpio</servlet-name>
+    <url-pattern>/gpio.html</url-pattern>
+  </servlet-mapping>
+  
+  
   <welcome-file-list>
     <welcome-file>index.html</welcome-file>
   </welcome-file-list>

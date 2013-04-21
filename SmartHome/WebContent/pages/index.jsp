@@ -2,8 +2,8 @@
 <%@ taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt" %>   
 <%@page import="java.util.Date,java.text.Format,java.text.SimpleDateFormat" %>
 
-
 <link class="include" rel="stylesheet" type="text/css" href="css/jquery.jqplot.min.css" />
+<link class="include" rel="stylesheet" type="text/css" href="css/style.css" />
 <script language="JavaScript" type="text/JavaScript" src="js/jquery.min.js"></script>
 <script class="include" type="text/javascript" src="js/jquery.jqplot.min.js"></script>
     
@@ -17,61 +17,7 @@
  
  <style type="text/css">
 
-    .chart-container {
-        border: 1px solid darkblue;
-        padding: 30px 0px 30px 30px;
-        width: 900px;
-        height: 400px;
-        
-    }
-
-    table.jqplot-table-legend {
-        font-size: 0.65em;
-        line-height: 1em;
-        margin: 0px 0px 10px 15px;
-    }
-
-    td.jqplot-table-legend-label {
-      width: 20em;
-    }
-
-    div.jqplot-table-legend-swatch {
-        border-width: 1.5px 6px;
-    }
-
-    div.jqplot-table-legend-swatch-outline {
-        border: none;
-    }
-
-    #chart1 {
-        width: 96%;
-        height: 96%;
-    }
-
-    .jqplot-datestamp {
-      font-size: 0.8em;
-      color: #777;
-/*      margin-top: 1em;
-      text-align: right;*/
-      font-style: italic;
-      position: absolute;
-      bottom: 15px;
-      right: 15px;
-    }
-
-    td.controls li {
-        list-style-type: none;
-    }
-
-    td.controls ul {
-        margin-top: 0.5em;
-        padding-left: 0.2em;
-    }
-
-    pre.code {
-        margin-top: 45px;
-        clear: both;
-    }
+   
 
   </style>
  
@@ -167,6 +113,7 @@ $(document).ready(function(){
 
 </script>
 
+<a href="/SmartHome/gpio.html?state=on">ON</a> | <a href="/SmartHome/gpio.html?state=off">OFF</a>
 
 <table border="2px">
 	<tr>

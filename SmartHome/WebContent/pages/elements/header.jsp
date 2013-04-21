@@ -7,3 +7,6 @@
 	<title>Sascar`s Smart Home</title>
 </head>
 <body>
+	<table>
+		<tr>
+			<td>
