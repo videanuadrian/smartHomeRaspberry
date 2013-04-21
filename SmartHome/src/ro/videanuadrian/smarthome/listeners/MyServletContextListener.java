@@ -30,6 +30,9 @@ public class MyServletContextListener implements ServletContextListener {
 			tempGrabThread.start();
 			System.out.println("*Successfully started    *");
 			System.out.println("**************************");
+			
+			GpioController gpio = GpioFactory.getInstance();
+			gpio.provisionDigitalOutputPin(RaspiPin.GPIO_01, "GPIO_01", PinState.LOW);
 				    
 		    
 			
@@ -53,6 +56,9 @@ public class MyServletContextListener implements ServletContextListener {
 			System.out.println("*Successfully stoped    *");
 			System.out.println("**************************");
 		}
+		
+		GpioController gpio = GpioFactory.getInstance();
+		gpio.shutdown();
 
 	}
 }

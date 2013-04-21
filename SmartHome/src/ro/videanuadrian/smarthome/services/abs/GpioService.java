@@ -7,8 +7,5 @@ public interface GpioService {
 	void turnOn(Pin raspPin);
 
 	void turnOff(Pin raspPin);
-
-	
-	
 	
 }
