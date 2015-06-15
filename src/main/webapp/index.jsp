@@ -1,8 +1,10 @@
-   <html>
+ <html>
     <head>
-        <title>Jodd</title>
+        <title>SmartHome</title>
     </head>
     <body>
-    ...current temp is ${temp}...
+    
+   
+    xxx xxx
     </body>
     </html>

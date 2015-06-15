@@ -36,7 +36,7 @@ public class InitService  {
 			logger.info("**************************");
 			logger.info("*Starting TempGrabber    *");
 			
-			//tempGrabThread.start();
+			tempGrabThread.start();
 			
 			logger.info("*Successfully started    *");
 			logger.info("**************************");

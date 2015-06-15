@@ -12,7 +12,7 @@ import jodd.madvoc.meta.Out;
 import jodd.petite.meta.PetiteInject;
 
 
-@MadvocAction
+@MadvocAction("index")
 public class IndexAction {
 
 	@PetiteInject
