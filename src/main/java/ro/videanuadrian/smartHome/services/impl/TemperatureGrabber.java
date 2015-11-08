@@ -81,6 +81,9 @@ public class TemperatureGrabber implements Runnable,TemperatureObserverSubject {
 			I2CDevice insideSensor = i2cBus.getDevice(0x48);
 			I2CDevice outsideSensor = i2cBus.getDevice(0x49);
 			
+			//I2CDevice insideSensor = i2cBus.getDevice(0x4a);
+			//I2CDevice outsideSensor = i2cBus.getDevice(0x4b);
+			
 			// pus 56 ca prima data cand porneste sa se execute
 			//s-a ales 55 pentru ca vreau ca update in db sa se faca la 5 minute
 			//astfel ca 12iteratii x5 secunde=60 secunde 5 calupuri de 12 iteratii = 5 minute

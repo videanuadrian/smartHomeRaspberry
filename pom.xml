@@ -4,19 +4,10 @@
   <groupId>ro.videanuadrian</groupId>
   <artifactId>smartHome</artifactId>
   <packaging>war</packaging>
-  <version>0.0.1-SNAPSHOT</version>
+  <version>0.0.2-SNAPSHOT</version>
   <name>smartHome</name>
   <url>http://maven.apache.org</url>
  
-<!-- 
-  <repositories>
-    <repository>
-      <id>org.jodd</id>
-      <url>http://repo1.maven.org/maven2/org/jodd/</url>
-    </repository>
- </repositories>
-   -->
-   
    <repositories>
 	<repository>
 		<id>oss-snapshots-repo</id>
@@ -33,7 +24,7 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.encoding.outputEncoding>UTF-8</project.encoding.outputEncoding>
 		<org.jodd.version>3.6.6</org.jodd.version>
-		<jdk.version>1.7</jdk.version>
+		<jdk.version>1.8</jdk.version>
 		<pi4j.version>1.0</pi4j.version>	
 	</properties>
   
@@ -92,14 +83,7 @@
 		<artifactId>mysql-connector-java</artifactId>
 		<version>5.1.27</version>
 	</dependency>
-    
-    <!-- 
-    <dependency>
-		<groupId>log4j</groupId>
-		<artifactId>log4j</artifactId>
-		<version>1.2.17</version>
-	</dependency>
-     -->
+
     <dependency>
 		<groupId>org.slf4j</groupId>
 		<artifactId>slf4j-api</artifactId>

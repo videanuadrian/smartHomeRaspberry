@@ -1,3 +1,3 @@
 <%
-	jodd.servlet.DispatcherUtil.redirect(request, response, "/index.html");
+	jodd.servlet.DispatcherUtil.redirect(request, response, "/login.html");
 %>

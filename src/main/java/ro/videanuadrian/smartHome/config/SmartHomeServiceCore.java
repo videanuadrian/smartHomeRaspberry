@@ -34,6 +34,15 @@ public class SmartHomeServiceCore {
 	private JtxTransactionManager jtxManager;
     private ConnectionProvider connectionProvider;
     protected PetiteContainer petite;
+    
+    public static SmartHomeServiceCore ref;
+
+	/**
+	 * Default constructor.
+	 */
+	public SmartHomeServiceCore() {
+		ref = this;
+	}
 	
     public synchronized void start() {
         //AppUtil.resolveDirs();
